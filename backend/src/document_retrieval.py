@@ -12,7 +12,7 @@ class DocumentRetrieval:
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.model.to(self.device)
         
-        # Load FAISS index and chunks
+        
         self.index = faiss.read_index('c:/Users/krish/medical/backend/data/vector_store/document_index.faiss')
         with open('c:/Users/krish/medical/backend/data/processed/chunks.json', 'r') as f:
             self.chunks = json.load(f)
@@ -39,18 +39,18 @@ class DocumentRetrieval:
         # Generate query embedding
         query_embedding = self.generate_query_embedding(query)
         
-        # Get initial candidates using FAISS
+        
         distances, indices = self.index.search(query_embedding, k * 2)
         
-        # Calculate cosine similarity for better accuracy
+        
         results = []
-        cosine_threshold = 0.4  # Adjust this threshold based on testing
+        cosine_threshold = 0.4  
         
         for idx in indices[0]:
             chunk = self.chunks[idx]
             chunk_embedding = self.generate_query_embedding(chunk['text'])
             
-            # Calculate cosine similarity directly
+            # Calculate cosine similarity
             similarity = self.calculate_cosine_similarity(
                 query_embedding,
                 chunk_embedding
@@ -76,11 +76,11 @@ class DocumentRetrieval:
     def rebuild_index(self) -> None:
         """Rebuild FAISS index with updated documents."""
         try:
-            # Generate embeddings for all chunks
+            
             embeddings = []
             updated_chunks = []
             
-            # Process each chunk
+            
             for chunk in self.chunks:
                 with torch.no_grad():
                     inputs = self.tokenizer(
@@ -96,15 +96,15 @@ class DocumentRetrieval:
                     embeddings.append(embedding)
                     updated_chunks.append(chunk)
 
-            # Convert embeddings to numpy array
+            
             embeddings_array = np.vstack(embeddings)
 
-            # Build new FAISS index
+    
             dimension = embeddings_array.shape[1]
             self.index = faiss.IndexFlatL2(dimension)
             self.index.add(embeddings_array)
 
-            # Save updated index and chunks
+            
             faiss.write_index(self.index, 'c:/Users/krish/medical/backend/data/vector_store/document_index.faiss')
             with open('c:/Users/krish/medical/backend/data/processed/chunks.json', 'w') as f:
                 json.dump(updated_chunks, f)
@@ -112,7 +112,7 @@ class DocumentRetrieval:
         except Exception as e:
             print(f"Error rebuilding index: {str(e)}")
             raise
-# Example usage
+
 if __name__ == "__main__":
     retriever = DocumentRetrieval()
     query = "What are the treatment options for severe asthma?"
