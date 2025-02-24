@@ -19,7 +19,7 @@ class DocumentProcessor:
         with open(file_path, 'r') as f:
             lines = f.readlines()
 
-        # Extract metadata and content
+        
         metadata = {}
         content_start = 0
         for i, line in enumerate(lines):
@@ -98,12 +98,12 @@ class DocumentProcessor:
                         processed_data.append(chunk_data)
                         all_embeddings.append(embedding)
 
-        # Create FAISS index
+        
         dimension = all_embeddings[0].shape[0]
         index = faiss.IndexFlatL2(dimension)
         index.add(np.array(all_embeddings))
 
-        # Save processed data and index
+        
         os.makedirs('c:/Users/krish/medical/backend/data/processed', exist_ok=True)
         os.makedirs('c:/Users/krish/medical/backend/data/vector_store', exist_ok=True)
 
