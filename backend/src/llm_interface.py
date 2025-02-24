@@ -6,7 +6,7 @@ from data_integrator import DataIntegrator
 
 class LLMInterface:
     def __init__(self, api_key: str = None):
-        # Try to get API key from parameter, then environment, or raise error
+        
         self.api_key = api_key or os.getenv('GOOGLE_API_KEY')
         if not self.api_key:
             raise ValueError(
@@ -70,19 +70,19 @@ class LLMInterface:
     def generate_response(self, query: str, max_chunks: int = 5) -> Dict:
         """Generate a response using the Gemini model."""
         try:
-            # First get relevant chunks from existing documents
+            
             local_chunks = self.retriever.retrieve_relevant_chunks(query, k=max_chunks)
             
-            # Then update knowledge base with web content
+            
             self.data_integrator.integrate_web_content(query)
             
-            # Get chunks again to include both local and web content
+            
             all_chunks = self.retriever.retrieve_relevant_chunks(query, k=max_chunks)
             
-            # Format prompt with all available context
+            
             prompt = self.format_prompt(query, all_chunks)
             
-            # Generate response using Gemini
+        
             response = self.model.generate_content(prompt)
             
             return {
@@ -98,9 +98,9 @@ class LLMInterface:
                 'status': 'error'
             }
 
-# Example usage
+
 if __name__ == "__main__":
-    # Replace with your actual Google API key
+    
     api_key = "AIzaSyBNW_rLfDKbjxC5gop7z59PCJkjztRYd9A"
     llm_interface = LLMInterface(api_key=api_key)
     query = "What are the treatment options for severe asthma?"
