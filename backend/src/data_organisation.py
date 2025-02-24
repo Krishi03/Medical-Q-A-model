@@ -19,7 +19,7 @@ def setup_data_directories():
             if not os.path.exists(full_path):
                 os.makedirs(full_path)
         except FileExistsError:
-            # Skip if directory already exists
+            
             pass
         except Exception as e:
             print(f"Error creating directory {dir_path}: {str(e)}")
@@ -29,7 +29,7 @@ def scan_documents() -> List[Dict]:
     documents = []
     base_path = os.path.normpath('c:/Users/krish/medical/backend/data/medical_documents')
     
-    # Include web_content in document scanning
+
     for folder in ['clinical_guidelines', 'patient_education', 'web_content']:
         folder_path = os.path.normpath(os.path.join(base_path, folder))
         if os.path.exists(folder_path) and os.path.isdir(folder_path):
@@ -41,7 +41,7 @@ def scan_documents() -> List[Dict]:
                             with open(file_path, 'r', encoding='utf-8') as f:
                                 content = f.read()
                                 
-                            # Extract metadata from content
+                            
                             lines = content.split('\n')
                             metadata = {}
                             for line in lines[:5]:
@@ -77,7 +77,7 @@ def create_metadata_file(documents: List[Dict]):
     with open(metadata_path, 'w', encoding='utf-8') as f:
         json.dump(metadata, f, indent=2)
 
-# Example usage
+
 if __name__ == "__main__":
     setup_data_directories()
     documents = scan_documents()
