@@ -10,8 +10,8 @@ git clone https://github.com/Krishi03/Medical-Q-A-model.git
 cd Medical-Q-A-model
 pip install -r requirements.txt
 ```
-2.Create a .env file in the root directory with:
-```GOOGLE_API_KEY(Gemini 1.5 flash)=your_google_api_key_here```
+2.Create a .env file in the root directory with API key for Gemini LLM:
+```GOOGLE_API_KEY=your_google_api_key_here```
 
 3.Run the application:
 ```
