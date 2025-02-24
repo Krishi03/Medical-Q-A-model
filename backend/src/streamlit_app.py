@@ -3,13 +3,13 @@ import requests
 from dotenv import load_dotenv
 import os
 
-# Load environment variables
+
 load_dotenv()
 
 def main():
     st.title("Medical Q&A Assistant")
     
-    # Add privacy notice and data handling information
+    
     with st.sidebar:
         st.markdown("### Privacy & Data Protection")
         st.info("""
@@ -22,14 +22,14 @@ def main():
     
     st.write("Ask questions about medical topics and get evidence-based answers")
     
-    # Add disclaimer before query input
+    
     st.markdown("""
     > **Important**: This system provides general medical information for educational purposes only. 
     It does not store or process personal health information. For personalized medical advice, 
     always consult with qualified healthcare professionals.
     """)
 
-    # Query input section
+    
     query = st.text_input("Enter your medical question")
 
     if st.button("Get Answer"):
