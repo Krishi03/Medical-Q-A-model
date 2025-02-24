@@ -1,0 +1,39 @@
+Title: Essential Hypertension Management Protocol
+Source: CDC Cardiovascular Health Division
+Author: CDC Hypertension Task Force
+Date: 2024-02-01
+Type: Clinical Guideline
+HYPERTENSION MANAGEMENT GUIDELINES
+BLOOD PRESSURE CLASSIFICATION
+
+Normal: <120/<80 mmHg
+Elevated: 120-129/<80 mmHg
+Stage 1: 130-139/80-89 mmHg
+Stage 2: ≥140/≥90 mmHg
+Hypertensive Crisis: >180/>120 mmHg
+
+DIAGNOSTIC EVALUATION
+
+Required Testing
+
+Multiple BP measurements
+Comprehensive metabolic panel
+Lipid profile
+Urinalysis
+12-lead ECG
+Serum creatinine
+
+
+Treatment Protocol
+First-line Medications:
+
+ACE inhibitors/ARBs
+Calcium channel blockers
+Thiazide diuretics
+
+Lifestyle Modifications:
+
+Sodium restriction (<2000 mg/day)
+DASH diet
+Regular physical activity
+Weight management

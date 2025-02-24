@@ -1,0 +1,29 @@
+Title: Coronary Artery Disease Management Guidelines
+Source: American Heart Association Clinical Repository
+Author: AHA Cardiology Committee
+Date: 2024-01-20
+Type: Clinical Guideline
+CORONARY ARTERY DISEASE MANAGEMENT
+RISK STRATIFICATION
+
+High Risk
+
+Multiple vessel disease
+Left main coronary artery disease
+Previous myocardial infarction
+Diabetes mellitus
+Reduced ejection fraction
+
+
+Treatment Approaches
+Medical Therapy:
+
+Antiplatelet agents
+Statins
+Beta-blockers
+ACE inhibitors
+
+Interventional Options:
+
+PCI (Percutaneous Coronary Intervention)
+CABG (Coronary Artery Bypass Grafting)

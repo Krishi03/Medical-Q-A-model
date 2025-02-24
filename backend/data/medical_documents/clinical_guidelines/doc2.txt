@@ -1,0 +1,19 @@
+Title: Acute Stroke Care and Management Guidelines
+Source: National Stroke Association
+Author: NSA Clinical Practice Committee
+Date: 2024-02-01
+Type: Clinical Guideline
+ACUTE STROKE MANAGEMENT
+Initial Assessment:
+
+Time of onset
+FAST assessment
+CT/MRI imaging
+NIH Stroke Scale
+
+Treatment Windows:
+
+IV thrombolysis: within 4.5 hours
+Mechanical thrombectomy: up to 24 hours
+Anticoagulation timing
+Secondary prevention initiation

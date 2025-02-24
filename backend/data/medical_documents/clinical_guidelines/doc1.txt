@@ -1,0 +1,40 @@
+Title: Comprehensive Asthma Management Protocol
+Source: International Respiratory Health Organization
+Author: IRHO Asthma Guidelines Committee
+Date: 2024-01-15
+Type: Clinical Guideline
+ASTHMA CLASSIFICATION AND MANAGEMENT
+Severity Classifications:
+
+Intermittent
+
+Symptoms ≤2 days/week
+Nighttime awakenings ≤2x/month
+Normal FEV1 between exacerbations
+FEV1 >80% predicted
+
+Persistent
+Mild:
+Symptoms >2 days/week
+Nighttime awakenings 3-4x/month
+FEV1 ≥80% predicted
+
+Moderate:
+Daily symptoms
+Nighttime awakenings >1x/week
+FEV1 60-80% predicted
+
+Severe:
+Symptoms throughout day
+Frequent nighttime awakenings
+FEV1 <60% predicted
+
+
+
+Treatment Steps:
+
+Rescue Medications
+Low-dose inhaled corticosteroids
+Medium-dose ICS + LABA
+High-dose ICS + LABA
+Add-on biologics consideration

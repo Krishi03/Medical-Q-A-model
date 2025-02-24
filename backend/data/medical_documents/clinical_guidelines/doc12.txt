@@ -1,0 +1,34 @@
+Title: Glaucoma Clinical Management Guidelines
+Source: International Eye Care Organization
+Author: IECO Glaucoma Committee
+Date: 2024-02-22
+Type: Clinical Guideline
+GLAUCOMA DIAGNOSIS AND TREATMENT
+Diagnostic Criteria:
+
+Intraocular Pressure (IOP)
+Visual Field Testing
+Optic Nerve Evaluation
+Gonioscopy Findings
+
+Treatment Algorithm:
+
+Medical Therapy
+
+First-line medications
+Combination therapy
+Maximum medical therapy
+
+
+Laser Treatment
+
+Selective laser trabeculoplasty
+Laser peripheral iridotomy
+Timing and indications
+
+
+Surgical Management
+
+Trabeculectomy
+Tube shunt surgery
+Minimally invasive options

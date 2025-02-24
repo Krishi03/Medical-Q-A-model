@@ -1,0 +1,29 @@
+Title: Chronic Kidney Disease Management Guidelines
+Source: International Nephrology Association
+Author: INA Guidelines Committee
+Date: 2024-02-20
+Type: Clinical Guideline
+CKD STAGING AND MANAGEMENT
+Disease Staging:
+Stage 1: eGFR ≥90 mL/min/1.73m²
+Stage 2: eGFR 60-89 mL/min/1.73m²
+Stage 3a: eGFR 45-59 mL/min/1.73m²
+Stage 3b: eGFR 30-44 mL/min/1.73m²
+Stage 4: eGFR 15-29 mL/min/1.73m²
+Stage 5: eGFR <15 mL/min/1.73m²
+Management Protocol:
+
+Risk Factor Control
+
+Blood pressure management
+Glycemic control
+Lipid management
+Lifestyle modification
+
+
+Complications Management
+
+Anemia
+Bone mineral disorders
+Cardiovascular disease
+Malnutrition

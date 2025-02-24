@@ -1,0 +1,53 @@
+Title: Clinical Practice Guidelines for Type 2 Diabetes Management
+Source: World Health Organization Guidelines Repository
+Author: WHO Diabetes Expert Committee
+Date: 2024-01-15
+Type: Clinical Guideline
+Comprehensive Guidelines for Type 2 Diabetes Management
+DIAGNOSTIC CRITERIA
+
+Primary Diagnostic Tests
+
+Fasting Plasma Glucose (FPG) ≥ 126 mg/dL (7.0 mmol/L)
+2-hour Plasma Glucose ≥ 200 mg/dL (11.1 mmol/L) during OGTT
+HbA1c ≥ 6.5% (48 mmol/mol)
+Random Plasma Glucose ≥ 200 mg/dL with symptoms
+
+
+Risk Factors Assessment
+
+Family history of diabetes
+Obesity (BMI ≥ 30 kg/m²)
+Physical inactivity
+Age ≥ 45 years
+Hypertension (≥140/90 mmHg)
+Dyslipidemia
+
+
+
+TREATMENT PROTOCOL
+
+Initial Management
+
+Lifestyle modifications
+Metformin (if not contraindicated)
+Blood glucose monitoring
+HbA1c target < 7%
+
+
+Treatment Escalation
+First-line: Metformin
+Second-line options:
+
+Sulfonylureas
+DPP-4 inhibitors
+SGLT2 inhibitors
+GLP-1 receptor agonists
+
+
+Monitoring Schedule
+
+HbA1c every 3-6 months
+Annual comprehensive foot examination
+Annual eye examination
+Regular cardiovascular assessment

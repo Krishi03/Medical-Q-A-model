@@ -1,0 +1,36 @@
+Title: Multiple Sclerosis Treatment Protocol
+Source: Neurological Disease Management Board
+Author: NDMB MS Committee
+Date: 2024-02-18
+Type: Clinical Guideline
+MULTIPLE SCLEROSIS MANAGEMENT
+Disease Classifications:
+
+Relapsing-Remitting MS (RRMS)
+Secondary Progressive MS (SPMS)
+Primary Progressive MS (PPMS)
+Progressive-Relapsing MS (PRMS)
+
+Treatment Strategies:
+
+Acute Relapse Management
+
+High-dose corticosteroids
+Plasma exchange
+Supportive care
+
+
+Disease-Modifying Therapies
+
+First-line options
+Escalation criteria
+Monitoring protocols
+Treatment response assessment
+
+
+Symptom Management
+
+Spasticity control
+Pain management
+Fatigue intervention
+Bladder dysfunction

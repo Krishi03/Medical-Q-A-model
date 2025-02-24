@@ -1,0 +1,42 @@
+Title: Clinical Guidelines for Obesity Management
+Source: International Obesity Treatment Council
+Author: IOTC Guidelines Committee
+Date: 2024-02-15
+Type: Clinical Guideline
+OBESITY CLASSIFICATION AND MANAGEMENT
+BMI Classification:
+
+Overweight: 25.0-29.9 kg/m²
+Class I Obesity: 30.0-34.9 kg/m²
+Class II Obesity: 35.0-39.9 kg/m²
+Class III Obesity: ≥40 kg/m²
+
+Assessment Protocol:
+
+Initial Evaluation
+
+Detailed weight history
+Eating patterns
+Physical activity level
+Comorbidity screening
+Psychological assessment
+
+
+Treatment Algorithm
+
+Lifestyle intervention
+Dietary modification
+Physical activity prescription
+Behavioral therapy
+Pharmacotherapy consideration
+Bariatric surgery evaluation
+
+
+
+Monitoring Requirements:
+
+Monthly weight measurements
+Body composition analysis
+Metabolic parameter tracking
+Comorbidity assessment
+Quality of life evaluation

@@ -1,0 +1,612 @@
+[
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc1.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Comprehensive Asthma Management Protocol",
+      "source": "International Respiratory Health Organization",
+      "author": "IRHO Asthma Guidelines Committee",
+      "date": "2024-01-15",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc10.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Multiple Sclerosis Treatment Protocol",
+      "source": "Neurological Disease Management Board",
+      "author": "NDMB MS Committee",
+      "date": "2024-02-18",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc11.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Chronic Kidney Disease Management Guidelines",
+      "source": "International Nephrology Association",
+      "author": "INA Guidelines Committee",
+      "date": "2024-02-20",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc12.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Glaucoma Clinical Management Guidelines",
+      "source": "International Eye Care Organization",
+      "author": "IECO Glaucoma Committee",
+      "date": "2024-02-22",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc2.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Acute Stroke Care and Management Guidelines",
+      "source": "National Stroke Association",
+      "author": "NSA Clinical Practice Committee",
+      "date": "2024-02-01",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc3.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Rheumatoid Arthritis Treatment Guidelines",
+      "source": "American Rheumatology Association",
+      "author": "ARA Guidelines Committee",
+      "date": "2024-01-20",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc4.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Osteoporosis Prevention and Treatment Guidelines",
+      "source": "International Bone Health Foundation",
+      "author": "IBHF Clinical Advisory Board",
+      "date": "2024-02-10",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc5.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Clinical Management of Anxiety Disorders",
+      "source": "World Psychiatric Association",
+      "author": "WPA Anxiety Disorders Committee",
+      "date": "2024-01-25",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc6.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Clinical Practice Guidelines for Type 2 Diabetes Management",
+      "source": "World Health Organization Guidelines Repository",
+      "author": "WHO Diabetes Expert Committee",
+      "date": "2024-01-15",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc7.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Essential Hypertension Management Protocol",
+      "source": "CDC Cardiovascular Health Division",
+      "author": "CDC Hypertension Task Force",
+      "date": "2024-02-01",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc8.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Coronary Artery Disease Management Guidelines",
+      "source": "American Heart Association Clinical Repository",
+      "author": "AHA Cardiology Committee",
+      "date": "2024-01-20",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\clinical_guidelines\\doc9.txt",
+    "source_type": "clinical_guidelines",
+    "metadata": {
+      "title": "Clinical Guidelines for Obesity Management",
+      "source": "International Obesity Treatment Council",
+      "author": "IOTC Guidelines Committee",
+      "date": "2024-02-15",
+      "type": "Clinical Guideline"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc13.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Living with Epilepsy: A Patient's Guide",
+      "source": "National Epilepsy Education Center",
+      "author": "NEEC Patient Resources Team",
+      "date": "2024-02-15",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc14.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "COPD: Understanding and Managing Your Condition",
+      "source": "Respiratory Health Foundation",
+      "author": "RHF Patient Education Division",
+      "date": "2024-01-30",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc15.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Understanding Thyroid Disorders: Patient Information",
+      "source": "Endocrine Health Network",
+      "author": "EHN Patient Resources",
+      "date": "2024-02-05",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc16.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Parkinson's Disease: A Comprehensive Guide",
+      "source": "Neurological Health Initiative",
+      "author": "NHI Patient Education Team",
+      "date": "2024-02-20",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc17.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Managing Migraines: Patient Guidelines",
+      "source": "Headache and Pain Association",
+      "author": "HPA Education Committee",
+      "date": "2024-01-28",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc18.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Understanding Liver Disease",
+      "source": "Digestive Health Foundation",
+      "author": "DHF Patient Resources Team",
+      "date": "2024-02-12",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc19.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Sleep Disorders: A Patient's Handbook",
+      "source": "Sleep Medicine Association",
+      "author": "SMA Patient Education Division",
+      "date": "2024-02-08",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc20.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Living with Autoimmune Disorders",
+      "source": "Immune System Health Network",
+      "author": "ISHN Education Team",
+      "date": "2024-02-18",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc21.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Understanding Kidney Disease",
+      "source": "Renal Health Foundation",
+      "author": "RHF Patient Education Committee",
+      "date": "2024-02-22",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc22.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Understanding Type 2 Diabetes: Patient Guide",
+      "source": "National Institute of Diabetes Education Program",
+      "author": "NIDEP Patient Education Team",
+      "date": "2024-01-30",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc23.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Living with High Blood Pressure: A Comprehensive Guide",
+      "source": "National Heart Health Education Initiative",
+      "author": "NHEI Patient Resources Team",
+      "date": "2024-02-10",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc24.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Understanding Heart Disease: Patient Information Guide",
+      "source": "CDC Heart Health Division",
+      "author": "CDC Patient Education Committee",
+      "date": "2024-02-15",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc25.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Mental Health: Understanding and Support Guide",
+      "source": "National Mental Health Institute",
+      "author": "NMHI Education Division",
+      "date": "2024-02-20",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc26.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Preventive Healthcare: A Guide to Staying Healthy",
+      "source": "National Preventive Health Program",
+      "author": "NPHP Educational Team",
+      "date": "2024-02-25",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc27.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Understanding and Managing Fibromyalgia",
+      "source": "Chronic Pain Education Network",
+      "author": "CPEN Patient Resources Team",
+      "date": "2024-02-15",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc28.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Living with Celiac Disease: Patient Guide",
+      "source": "Digestive Health Education Center",
+      "author": "DHEC Patient Information Team",
+      "date": "2024-02-18",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc29.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Managing Vertigo and Balance Disorders",
+      "source": "Vestibular Health Foundation",
+      "author": "VHF Education Committee",
+      "date": "2024-02-20",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\patient_education\\doc30.txt",
+    "source_type": "patient_education",
+    "metadata": {
+      "title": "Understanding Chronic Fatigue Syndrome",
+      "source": "Medical Education Network",
+      "author": "MEN Patient Resources Division",
+      "date": "2024-02-22",
+      "type": "Patient Education"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740385707.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.mayoclinic.org/tests-procedures/coronary-angioplasty/about/pac-20384761",
+      "source": "www.mayoclinic.org",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740385708.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740394724.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740394788.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740395511.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740395878.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740396155.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740396209.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740396345.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740396692.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740397091.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740397152.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740397284.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740397424.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740397734.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740397876.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740397923.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.mayoclinic.org/diseases-conditions/dizziness/symptoms-causes/syc-20371787",
+      "source": "www.mayoclinic.org",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740397924.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740398229.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740398270.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.mayoclinic.org/diseases-conditions/cancer/symptoms-causes/syc-20370588",
+      "source": "www.mayoclinic.org",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740398271.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740398430.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740398493.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740398544.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740398749.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.mayoclinic.org/diseases-conditions/dizziness/symptoms-causes/syc-20371787",
+      "source": "www.mayoclinic.org",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740398750.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740402137.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.mayoclinic.org/diseases-conditions/psoriasis/symptoms-causes/syc-20355840",
+      "source": "www.mayoclinic.org",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  },
+  {
+    "file_path": "c:\\Users\\krish\\medical\\backend\\data\\medical_documents\\web_content\\web_1740402138.txt",
+    "source_type": "web_content",
+    "metadata": {
+      "title": "https://www.who.int/",
+      "source": "www.who.int",
+      "date": "2025-02-24",
+      "type": "Web Content"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+Title: Rheumatoid Arthritis Treatment Guidelines
+Source: American Rheumatology Association
+Author: ARA Guidelines Committee
+Date: 2024-01-20
+Type: Clinical Guideline
+RHEUMATOID ARTHRITIS MANAGEMENT
+Disease Assessment:
+
+Joint involvement
+Serological testing
+Acute phase reactants
+Symptom duration
+
+Treatment Algorithm:
+
+Initial DMARD therapy
+Combination strategies
+Biological agents
+Monitoring protocols
