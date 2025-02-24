@@ -13,16 +13,16 @@ class DataIntegrator:
     def integrate_web_content(self, query: str) -> None:
         """Scrape and integrate web content with existing data"""
         try:
-            # Scrape web content based on query
+            
             new_docs = self.scraper.process_query(query)
             
-            if new_docs:  # Only update if new content was found
+            if new_docs:  
                 print(f"New documents found: {len(new_docs)}")
                 # Update metadata
                 documents = scan_documents()
                 create_metadata_file(documents)
                 
-                # Regenerate vector store with new content
+                
                 self.retriever.rebuild_index()
             else:
                 print("No new documents found from web scraping")
