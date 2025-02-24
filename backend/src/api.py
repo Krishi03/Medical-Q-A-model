@@ -12,16 +12,16 @@ llm_interface = LLMInterface(api_key=os.getenv('GOOGLE_API_KEY'))
 
 class Query(BaseModel):
     text: str
-    urls: list[str] = []  # Optional list of URLs to scrape
+    urls: list[str] = []  
 
 @app.post("/api/query")
 async def process_query(query: Query):
     try:
-        # If URLs are provided, update knowledge base first
+        
         if query.urls:
             llm_interface.update_knowledge_base(query.urls)
         
-        # Generate response using both existing and new data
+    
         response = llm_interface.generate_response(query.text)
         return response
     except Exception as e:
