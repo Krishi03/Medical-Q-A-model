@@ -33,22 +33,22 @@ class MedicalWebScraper:
                 search_response.raise_for_status()
                 soup = BeautifulSoup(search_response.text, 'html.parser')
                 
-                # Find result links (customize selectors for each domain)
+            
                 if 'mayoclinic.org' in domain:
                     links = soup.select('.search-results a')
                 elif 'medlineplus.gov' in domain:
                     links = soup.select('.search-results-list a')
                 else:
                     links = soup.find_all('a', href=True)
+            
                 
-                # Get first relevant result
                 for link in links:
                     href = link.get('href', '')
                     if domain in href and not any(skip in href.lower() for skip in ['search', 'image', 'video']):
                         relevant_urls.append(href)
                         break
                 
-                time.sleep(2)  # Respect rate limits
+                time.sleep(2)  
             except Exception as e:
                 print(f"Error searching {domain}: {str(e)}")
                 continue
@@ -61,7 +61,7 @@ class MedicalWebScraper:
             response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
             
-            # Extract main content (customize selectors based on the website)
+            
             content = ""
             main_content = soup.find('main') or soup.find('article') or soup.find('div', class_='content')
             if main_content:
@@ -94,7 +94,7 @@ class MedicalWebScraper:
             os.makedirs(os.path.dirname(filepath), exist_ok=True)
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(content)
-            print(f"Saved content to: {filepath}")  # Debug log
+            print(f"Saved content to: {filepath}")  
             return filepath
         except Exception as e:
             print(f"Error saving content: {str(e)}")
@@ -119,12 +119,12 @@ class MedicalWebScraper:
 
     def process_query(self, query: str) -> List[str]:
         """Process a query by searching and scraping relevant content"""
-        print(f"Searching medical sites for: {query}")  # Debug log
-        # Search for relevant URLs
+        print(f"Searching medical sites for: {query}")  
+    
         relevant_urls = self.search_medical_sites(query)
-        print(f"Found URLs: {relevant_urls}")  # Debug log
+        print(f"Found URLs: {relevant_urls}")  
         
-        # Process found URLs
+        
         document_paths = self.process_urls(relevant_urls)
-        print(f"Processed documents: {document_paths}")  # Debug log
+        print(f"Processed documents: {document_paths}")  
         return document_paths
